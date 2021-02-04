@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import {Project} from '../src/components/project/project.jsx'
 import {Header} from '../src/components/header/header.component.jsx'
 
 
@@ -34,6 +35,7 @@ class App extends Component {
           <div class= "container">
   
             <p> { this.state.welcome } </p>
+            <Project/>
             
   
           </div>
