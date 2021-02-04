@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Header =(props) => (
+function Header (props)  {
     <div className= 'header'>
         <header className="App-header">
         <p>
@@ -18,4 +18,6 @@ export const Header =(props) => (
         </a>
       </header>
     </div>
-)
+}
+
+export default Header;
