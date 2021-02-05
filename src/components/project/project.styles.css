@@ -1,3 +1,8 @@
 .project {
-    display: flex
+    background-color: rgb(173, 173, 196);
+    border: black;
+    border-radius: 5em;
+    border-width: 4px;
+    display: flex,
+    
 }

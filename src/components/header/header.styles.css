@@ -1,5 +1,19 @@
 .header {
-    
+    background-color: rgb(211, 202, 150);
+    justify-content: center;
+    border-radius: 10em;
+    border-width: 2em;
+    border-color: darkgray;
     display: flex,
     
+}
+
+p {
+    text-shadow: 2em;
+    font-style: oblique;
+    color:rgb(4, 4, 56)
+}
+
+.link {
+    color: rgb(30, 6, 138)
 }

@@ -11,14 +11,16 @@ class App extends Component {
     super();
 
     this.state = {
-      name: "Zachary Lynn",
-      projects: [
-        'project1', 
-        'project2', 
-        'project3', 
-        'project4', 
-        'project5', 
-        'project6']
+      name: ["NoteBook", "Profile", "Company Organizer", "Budget Tracker", "BurgerApp", "WeatherApp"],
+      url: [
+        'https://git.heroku.com/notebook-argentpur.git', 
+        'https://argentpur.github.io/Personal-Portfolio/', 
+        'https://github.com/ArgentPur/Company-Organizer', 
+        'https://git.heroku.com/budget-tracker84.git', 
+        'https://git.heroku.com/desolate-falls-35342.git', 
+        'https://argentpur.github.io/WeatherAPI/'],
+      picture: [],
+      description: []  
     }
   }
   render() {
@@ -34,6 +36,7 @@ class App extends Component {
             <Project/>
             <Project/>
             <Project/>
+
           </div>
 
           <Footer/>
