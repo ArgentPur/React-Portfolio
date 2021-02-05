@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import {Project} from '../src/components/project/project.jsx'
 import {Header} from '../src/components/header/header.component.jsx'
+import { Footer } from './components/footer/footer';
 
 
 class App extends Component {
@@ -10,35 +11,32 @@ class App extends Component {
     super();
 
     this.state = {
-      welcome: "Welcome to my developer portfolio!"
+      name: "Zachary Lynn",
+      projects: [
+        'project1', 
+        'project2', 
+        'project3', 
+        'project4', 
+        'project5', 
+        'project6']
     }
   }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Welcome to my developer portfolio!
-          </p>
-          <img src= "https://avatars.githubusercontent.com/u/68625109?s=460&u=18d6fc86f9c6140410da8e59d7bb1b23a7125546&v=4" alt="logo" />
-  
-          <a
-            className="App-link"
-            href="https://github.com/ArgentPur"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ArgentPur @ Github
-          </a>
-        </header>
+          <Header/>
         <body>
           <div class= "container">
   
-            <p> { this.state.welcome } </p>
             <Project/>
-            
-  
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
           </div>
+
+          <Footer/>
         </body>
       </div>
     );
