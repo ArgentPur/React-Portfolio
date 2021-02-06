@@ -29,14 +29,11 @@ class App extends Component {
           <Header/>
         <body>
           <div class= "container">
-  
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
 
+            {this.state.name.map(item => (
+              <Project/>
+            ))}
+             
           </div>
 
           <Footer/>

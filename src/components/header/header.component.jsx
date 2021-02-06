@@ -18,6 +18,18 @@ export const Header = (props) => (
         >
           ArgentPur @ Github
         </a>
+
+        <p>||</p>
+
+        <a
+          //className="App-link"
+          href="https://www.linkedin.com/in/zachary-lynn-4032bb62"
+          target="_blank"
+          rel="noopener noreferrer"
+          class= "link"
+        >
+           @ LinkedIn
+        </a>
       </header>
     </div>
 )
