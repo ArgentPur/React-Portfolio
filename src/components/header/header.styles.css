@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(211, 202, 150);
+    background: linear-gradient(to top right, #e6bd0b,  #869dca);
     justify-content: center;
     border-radius: 10em;
     border-width: 2em;
@@ -16,4 +16,5 @@ p {
 
 .link {
     color: rgb(30, 6, 138)
+    
 }

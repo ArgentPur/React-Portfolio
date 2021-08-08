@@ -1,0 +1,12 @@
+.body {
+    background: linear-gradient(to top right, #0c172e,  #869dca);
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+a {
+    font-size: larger;
+    font-weight: bolder;
+    color: gold;
+
+}

@@ -3,7 +3,8 @@ import './App.css';
 import {Project} from '../src/components/project/project.jsx'
 import {Header} from '../src/components/header/header.component.jsx'
 import { Footer } from './components/footer/footer';
-
+import {Body} from '../src/components/body/body.jsx';
+import {allProjects} from './projects';
 
 class App extends Component {
 
@@ -28,14 +29,9 @@ class App extends Component {
       <div className="App">
           <Header/>
         <body>
-          <div class= "container">
 
-            {this.state.name.map(item => (
-              <Project/>
-            ))}
-             
-          </div>
-
+          <Body/>
+        
           <Footer/>
         </body>
       </div>
