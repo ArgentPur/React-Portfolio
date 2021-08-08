@@ -11,10 +11,19 @@
 p {
     text-shadow: 2em;
     font-style: oblique;
-    color:rgb(4, 4, 56)
+    font-size: large;
+    color:rgb(253, 137, 4)
 }
 
 .link {
     color: rgb(30, 6, 138)
     
+}
+
+h2 {
+    color: rgb(10, 10, 68);
+}
+
+img {
+    border-radius: 2em;
 }

@@ -3,7 +3,7 @@ export const allProjects =
 [
     {
         "name": "NoteBook",
-        "url": "https://git.heroku.com/notebook-argentpur.git",
+        "url": "https://notebook-argentpur.herokuapp.com/",
         "description": ""
     },
     {
@@ -12,24 +12,24 @@ export const allProjects =
         "description": ""
     },
     {
-        "name": "Company Organizer",
-        "url": "https://github.com/ArgentPur/Company-Organizer",
+        "name": "GIVING",
+        "url": "https://github.com/ArgentPur/GIVING",
         "description": ""
     },
     {
-        "name": "Budget Tracker",
-        "url": "https://git.heroku.com/budget-tracker84.git",
-        "description": ""
+        "name": "Opus_1 - Music Resource Page",
+        "url": "https://argentpur84.github.io/Opus1/",
+        "description": "Opus_1 is a resource page that I created for my students studying piano, and is my favorite example of how learning web development has helped in my carreer as an instructor..  "
     },
     {
-        "name": "BurgerApp",
-        "url": "https://git.heroku.com/desolate-falls-35342.git",
-        "description": ""
+        "name": "Python-Powered Password",
+        "url": "https://github.com/ArgentPur/Python-Password-Generator",
+        "description": "A cli application that returns a completely random sequence of letters, numbers and symbols based on user input."
     },
     {
         "name": "WeatherApp",
         "url": "https://argentpur.github.io/WeatherAPI/",
-        "description": ""
+        "description": "A simple application that makes an API request for weather information."
     }
 ]
 

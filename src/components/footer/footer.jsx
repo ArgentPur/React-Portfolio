@@ -8,7 +8,16 @@ export const Footer =(props) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          ArgentPur @ Github
+          ArgentPur @ Github 
+        </a>
+        <a> & </a>
+        <a
+          className="App-link"
+          href="https://github.com/ArgentPur84"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ArgentPur84 @ Github
         </a>
     </div>
 )
