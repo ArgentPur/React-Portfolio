@@ -11,3 +11,8 @@ a {
     color: gold;
 
 }
+
+.project {
+    background: linear-gradient(rgb(10, 15, 24), rgb(25, 25, 131));
+    margin-bottom: 3em;
+}
