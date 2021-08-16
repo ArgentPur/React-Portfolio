@@ -1,8 +1,11 @@
 .body {
-    background: linear-gradient(to top right, #0c172e,  #869dca);
+    background: linear-gradient(to top right, #175f41,  #869dca);
     margin-top: 10em;
     margin-bottom: 10em;
     border-radius: 2em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+
 }
 
 a {
@@ -13,6 +16,8 @@ a {
 }
 
 .project {
-    background: linear-gradient(rgb(10, 15, 24), rgb(25, 25, 131));
+    background: linear-gradient(rgb(10, 15, 24), rgb(18, 93, 233));
     margin-bottom: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
 }

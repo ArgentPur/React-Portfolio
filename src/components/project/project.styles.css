@@ -3,6 +3,8 @@
     border: black;
     border-radius: 5em;
     border-width: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
     display: flex,
     
 }
