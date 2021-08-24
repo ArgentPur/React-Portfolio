@@ -11,13 +11,17 @@
 a {
     font-size: larger;
     font-weight: bolder;
-    color: gold;
+    color: rgb(245, 226, 118);
 
 }
 
 .project {
-    background: linear-gradient(rgb(10, 15, 24), rgb(18, 93, 233));
+    background: linear-gradient(rgb(32, 47, 75), rgb(18, 93, 233));
     margin-bottom: 3em;
     margin-left: 5em;
     margin-right: 5em;
+}
+
+p {
+    color:rgb(179, 250, 179)
 }
