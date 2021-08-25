@@ -17,14 +17,14 @@ export const allProjects =
         "description": "Opus_1 is a resource page that I created for my students studying piano, and is my favorite example of how learning web development has helped in my carreer as an instructor."
     },
     {
+        "name": "Python-Powered Password",
+        "url": "https://github.com/ArgentPur/Python-Password-Generator",
+        "description": "A cli application that returns a completely random sequence of letters, numbers and symbols based on user input."  
+    },
+    {
         "name": "GIVING",
         "url": "https://github.com/ArgentPur/GIVING",
         "description": "A collaborative group project, GIVING is a React app that uses a Mongo database and features passport authenitcation."
-    },
-    {
-        "name": "Python-Powered Password",
-        "url": "https://github.com/ArgentPur/Python-Password-Generator",
-        "description": "A cli application that returns a completely random sequence of letters, numbers and symbols based on user input."
     },
     {
         "name": "WeatherApp",
