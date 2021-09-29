@@ -14,7 +14,8 @@ export const allProjects =
     {
         "name": "Opus_1 - Music Resource Page",
         "url": "https://argentpur84.github.io/Opus1/",
-        "description": "Opus_1 is a resource page that I created for my students studying piano, and is my favorite example of how learning web development has helped in my carreer as an instructor."
+        "description": "Opus_1 is a resource page that I created for my students studying piano, and is my favorite example of how learning web development has helped in my carreer as an instructor.",
+        "code": "https://github.com/ArgentPur84/Opus1"
     },
     {
         "name": "Python-Powered Password",

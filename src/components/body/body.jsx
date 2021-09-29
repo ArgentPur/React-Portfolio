@@ -15,6 +15,7 @@ export const Body = (props) => (
         <div class= "project">
         <a href= {allProjects[2].url} target="_blank">{allProjects[2].name}</a><br/>
         <p>{allProjects[2].description}</p>
+        <a href= {allProjects[2].code} target='_blank'>Code Repository</a>
         </div>
         <div class= "project">      
         <a href= {allProjects[3].url} target="_blank">{allProjects[3].name}</a><br/>
